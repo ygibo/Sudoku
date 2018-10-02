@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            tools:text="@string/title"
+            android:textSize="50sp"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/continue_button"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/continueString"
+                android:textSize="35sp"/>
+
+            <Button
+                android:id="@+id/problem_button"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/problem"
+                android:textSize="35sp"/>
+
+            <Button
+                android:id="@+id/create_button"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/create"
+                android:textSize="35sp"/>
+
+            <Button
+                android:id="@+id/my_problem"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="35sp"
+                android:text="@string/my_problem" />
+
+            <Button
+                android:id="@+id/exit_button"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:text="@string/exit"
+                android:textSize="35sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:layout_weight="3">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="9"
+       android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/create_button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:onClick="onClick"
+          android:text="@string/create_mode"
+          android:textSize="24sp"/>
+
+      <Button
+          android:id="@+id/save_button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:onClick="onClick"
+          android:text="@string/save_button"
+          android:textSize="24sp"/>
+
+      <Button
+          android:id="@+id/load_button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:onClick="onClick"
+          android:text="@string/load_button"
+          android:textSize="24sp"/>
+   </LinearLayout>
+
+   <com.example.yoshi.sudoku.SudokuCreateTable.SudokuCreateView
+       android:id="@+id/sudoku_ui"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="1"/>
+
+</LinearLayout>

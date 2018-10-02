@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#ffe6f0ff</color>
+    <color name="hilite">#ffffffff</color>
+    <color name="light">#64c6d4ef</color>
+    <color name="dark">#6456658f</color>
+    <color name="foreground">#ff000000</color>
+    <color name="selected_cell">#64ff8000</color>
+    <color name="normal_cell">#64c6d4ef</color>
+    <color name="black">#FF000000</color>
+    <color name="hint0">#e92a50</color>
+    <color name="hint1">#7be777</color>
+    <color name="hint2">#5cd3d5</color>
+    <color name="static_cell">#c8c8c8</color>
+    <color name="white">#FFFF</color>
+</resources>
