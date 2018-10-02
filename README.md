@@ -1,5 +1,5 @@
 # Sudoku
-Sudoku problems play and create application.
+This is an application to play and create Sudoku problem.
 
 # 数独の問題をプレイ、作成する Android アプリケーション
 
